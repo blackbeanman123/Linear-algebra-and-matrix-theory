@@ -1,8 +1,8 @@
-##LU factorization
+## LU factorization
 
 ### plain LU decomposition
 
-####definition
+#### definition
 
 A = LU (L is a lower triangular matrix and U is an upper triangular matrix)
 
@@ -30,7 +30,7 @@ e.g.
 
 <br /> <br />
 
-####LU Factorization Algorithm
+#### LU Factorization Algorithm
 
 Suppose A can be reduced to an echelon form U using **_only row replacements_** (or A=LU would not exist, you can perform PA = LU)<br/><br/>
 So there exist ![](./LU factorization/1.gif)(unit lower triangular elementary matrices) let ![](./LU factorization/2.gif)<br/>
@@ -44,7 +44,7 @@ time complexity: O(N^3)
 e.g. From: Lay, David C._ Lay, Steven R._ McDonald, Judith - Linear Algebra and Its Applications-Pearson<br/><br/>
 ![](./res/LUexample.png)
 
-###LU factorization with partial pivoting (LUP)
+### LU factorization with partial pivoting (LUP)
 
 background knowledge: 1. for _**square matrix**_, a proper permutation in rows (or columns) is **_sufficient_** for LU factorization.<br/>
 
@@ -52,13 +52,13 @@ So let:&nbsp;&nbsp;&nbsp; PA = LU
 (P is a permutation matrix, which, when left-multiplied to A, reorders the rows of A, when right-mutiplied to A, reorders the columns of A)
 <br/>
 
-###applications
+### applications
 
 The key to these applications is that the triangular matrix is easy to calculate and has special properties
 ![](./res/wiki.png)
 from: `https://en.wikipedia.org/wiki/LU_decomposition#cite_note-horn-cor355-5`
 
-###References：  
+### References：  
 
 `https://en.wikipedia.org/wiki/LU_decomposition#cite_note-horn-cor355-5 `
 `https://www.statlect.com/matrix-algebra/lu-decomposition`
