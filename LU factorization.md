@@ -10,7 +10,6 @@ A = LU (L is a lower triangular matrix and U is an upper triangular matrix)
 (from wiki)  
 LU decomposition can be viewed as the matrix form of Gaussian elimination
 
-
 #### Existence and uniqueness
 
 Existence:   <br /> <br />
@@ -45,8 +44,6 @@ time complexity: O(N^3)
 e.g. From: Lay, David C._ Lay, Steven R._ McDonald, Judith - Linear Algebra and Its Applications-Pearson<br/><br/>
 ![](./res/LUexample.png)
 
-
-
 ###LU factorization with partial pivoting (LUP)
 
 background knowledge: 1. for _**square matrix**_, a proper permutation in rows (or columns) is **_sufficient_** for LU factorization.<br/>
@@ -54,7 +51,6 @@ background knowledge: 1. for _**square matrix**_, a proper permutation in rows (
 So let:&nbsp;&nbsp;&nbsp; PA = LU  
 (P is a permutation matrix, which, when left-multiplied to A, reorders the rows of A, when right-mutiplied to A, reorders the columns of A)
 <br/>
-
 
 ###applications
 
