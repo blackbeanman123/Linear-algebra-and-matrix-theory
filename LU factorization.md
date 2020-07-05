@@ -33,7 +33,7 @@ e.g.
 #### LU Factorization Algorithm
 
 Suppose A can be reduced to an echelon form U using **_only row replacements_** (or A=LU would not exist, you can perform PA = LU)<br/><br/>
-So there exist ![](./LU factorization/1.gif)(unit lower triangular elementary matrices) let ![](./LU factorization/2.gif)<br/>
+So there exist ![](./res/1.gif)(unit lower triangular elementary matrices) let ![](./res/2.gif)<br/>
 Then ![](./res/3.gif)<br/><br/>
 In breif, we can just perform Guassian elimination on A to reduce it into a row echelon form (U); And the same sequence of row operations would reduce L to I 
 
